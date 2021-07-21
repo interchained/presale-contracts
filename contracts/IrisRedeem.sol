@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "./libs/ReentrancyGuard.sol";
 
 import "./FenixToken.sol";
 contract IrisRedeem is Ownable, ReentrancyGuard {
