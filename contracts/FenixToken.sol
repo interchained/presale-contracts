@@ -1,7 +1,8 @@
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+
+import "./libs/ReentrancyGuard.sol";
+import "./libs/Ownable.sol";
 
 
 import "./libs/IERC20.sol";
